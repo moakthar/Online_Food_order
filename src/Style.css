@@ -1,0 +1,504 @@
+/* 1).Home HTML Stylesheet */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Image */
+
+.zero {
+    background: url(Images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 752px;
+}
+
+/* Creating MT Transparent Box */
+
+.first {
+    height: 750px;
+    width: 750px;
+    background-color: rgba(255, 255, 255, 0.874);
+    margin-left: 597px;
+    border: 1px double grey;
+    border-radius: 100px 0 0 100px;
+}
+
+/* Background Image Adjustment*/
+
+.logo {
+    position: static;
+    height: auto;
+    width: 280px;
+    margin-left: 230px;
+    background: transparent;
+}
+
+/* navigation bar  */
+
+.navtool {
+    height: 50px;
+    width: 100%;
+    border-radius: 35px;
+    background: rgba(7, 7, 68, 0.9);
+    position: sticky;
+    top: 0%;
+}
+
+.navbar ul {
+    float: left;
+    font-weight: 500;
+    text-indent: 19px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.navbar ul li a.active:hover {
+    background: linear-gradient(to left, red, blue, green, yellow, pink);
+    color: black;
+    border-radius: 50px;
+}
+
+/*Home Page Learn More Bout.. */
+
+.home {
+    background: url(Images/home-bg.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    width: 750px;
+    height: 443px;
+    border-radius: 0 0 0 100px;
+    color: #ffffff;
+}
+
+.home .col {
+    margin-left: 140px;
+    margin-top: 150px;
+}
+
+.col a {
+    text-decoration: none;
+    color: black;
+}
+
+.home h1 {
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-style: normal;
+    padding: 10px;
+}
+
+.home .btn {
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 16px 42px;
+    margin-top: 60px;
+    transition: all 1s ease-in-out;
+}
+
+.home .btn:hover {
+    background: #ffffff;
+    color: #202020;
+}
+
+/* Food Gallery */
+
+div .row #minitool {
+    text-align: center;
+    height: 30px;
+    width: 99.3%;
+    background-color: rgba(7, 7, 68, 0.4);
+    position: relative;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    border: 3px solid white;
+    transition: all 1s ease-in-out;
+}
+
+div .row #minitool:hover {
+    background: white;
+    color: #202020;
+}
+
+.gridcontainer {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 10px;
+}
+
+.griditem {
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.37), rgba(255, 255, 0, 0.384));
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.griditem img {
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.griditem img:hover,
+.griditem img:focus,
+.griditem img:active {
+    transform: skew(30deg);
+}
+
+.griditem h5 {
+    margin-top: 7px;
+}
+
+.placeorder {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2b59b5;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+}
+
+#food {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* footer section */
+
+.openings {
+    background: rgb(136, 135, 135);
+    padding: 20px;
+    height: 550px;
+
+}
+
+div .heading {
+    padding-left: 70px;
+}
+
+div p {
+    color: #ffffff;
+    padding-left: 70px;
+}
+
+div span {
+    font-weight: bold;
+    padding-left: 24px;
+}
+
+.moto {
+    padding: 20px;
+}
+
+/* social icon */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover,
+.fa:active,
+.fa:focus {
+    transform: scale(2.7);
+}
+
+/* Copyright */
+
+.Copy {
+    text-align: center;
+}
+
+
+/* 2).Order HTML Stylesheet  */
+
+.two {
+    background: url(Images/pexels-pixabay-260922.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three {
+    height: 1400px;
+    width: 800px;
+    background: rgba(128, 128, 128, 0.77);
+    margin-left: 80px;
+    border-radius: 50px;
+}
+
+#to {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 37px;
+}
+
+#top {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dish1 {
+    float: right;
+    padding: 35px;
+    margin-left: 10px;
+}
+
+.dish1 .write {
+    padding-left: 5px;
+    text-align: center;
+}
+
+.bir {
+    margin-top: 10px;
+    padding-left: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.dish2 {
+    float: left;
+    margin-left: 160px;
+}
+
+.write {
+    text-align: center;
+}
+
+/* Contact Us HTML Stylesheet */
+
+.five {
+    background: url(Images/contact\ us.jpg);
+    background-size: cover;
+}
+
+.contact {
+    margin-left: 90px;
+    height: auto;
+    width: 700px;
+    background-color: rgba(7, 7, 49, 0.819);
+    margin-top: 80px;
+}
+
+#tope {
+    text-align: center;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+    color: rgba(6, 6, 46, 0.856);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgba(232, 232, 240, 0.8);
+    transition: all 0.3s ease-in-out;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #2c4faf;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #CC4949;
+}
+
+/* About HTML Stylesheet */
+
+.eight {
+    background: url(Images/_Black\ Modern\ \ Restaurant\ \ Menu\ Portrait.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+
+.nine {
+    height: 500px;
+    width: 800px;
+    background-color: #202020af;
+    display: flex;
+    margin-left: 90px;
+    
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 25px;
+}
+
+article {
+    color: #ffffff;
+    text-indent: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 20px;
+}
+
+aside .lalo {
+    margin-left: 210px;
+}
+
+/* Forms HTML Stylesheet */
+
+.ten {
+    background: url(Images/Forms\ Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.regis {
+    position: static;
+    top: 80px;
+    margin: 10px 200px 0 200px;
+    padding: 10px 30px 0 30px;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(14, 14, 14, 0.719);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.regis h1 {
+    text-align: center;
+    background-color: rgba(6, 6, 58, 0.829);
+    color: white;
+    border-radius: 15px;
+}
+
+#one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#four {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#point {
+    width: 20px;
+    height: 15px;
+}
+
+#six {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: groove;
+}
+
+option {
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dot {
+   border: 0px;
+   border-radius: 0px;
+   font-size: large;
+}
+
+#seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Completed Form Stylesheet : */
+
+.ice {
+    background: #ffffff;
+}
+
+/* Reservation HTML Stylesheet */
+
+.error {
+    background-image: url(Images/underconstruction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
